@@ -10,11 +10,11 @@
 
 
 // ===== WiFi & API info =====
-const char* ssid     = "juniorO-2.4G@unifi";
-const char* password = "charizard";
-String apiKey = "54c7fd807ac4c2f5193467e9ca9520cd";
-String city = "Penang";
-String countryCode = "MY";
+const char* ssid     = "YourWifi";
+const char* password = "YourPassword";
+String apiKey = "YourAPIKey";
+String city = "YourCity";
+String countryCode = "YourCountry";
 
 // ===== Globals =====
 String weatherDesc = "Loading...";
