@@ -190,7 +190,7 @@ void loop() {
     // ===== PAGE 2: OUTDOOR WEATHER =====
     display.setTextSize(1);
     display.setCursor(2, 5);
-    display.println("PNG");
+    display.println(city);
     display.drawLine(0, 15, 32, 15, SSD1306_WHITE);
 
     display.setCursor(2, 25);
